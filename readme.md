@@ -15,5 +15,5 @@
 - L'utente lo inserisce e lo conservo in una variabile userSurname;
 - Chiedo all'utente il suo colore preferito;
 - L'utente lo inserisce e lo conservo in una variabile userColour;
-- Genero la password sommando userName + userSurname + userColour + 23;
+- Genero la password concatenando userName + userSurname + userColour + 23;
 - Stampo la password su schermo.

@@ -20,8 +20,8 @@ const userColour = prompt("Qual è il tuo colore preferito?");
 console.log(userColour);
 
 // 7
-const password = userName + userSurname + userColour + 23;
+const password = userName + userSurname + userColour + "23";
 console.log(password);
 
 // 8
-resultElement.innerText = 
+document.getElementById("output").innerHTML = password;
